@@ -199,6 +199,8 @@ document.getElementById('fb-root').appendChild(e);
 
 			<h1>Share Your #Milestone Summer Photo!<h1>
 
+
+
 <!-- Twitter Button -->
   <span class="custom-tweet-button">
   <a id="twitter_button"
@@ -206,6 +208,13 @@ document.getElementById('fb-root').appendChild(e);
     data-hashtags="#MileStoneSummer">
   <img src="https://raw.githubusercontent.com/snapifeye/buttons/master/Twitter.jpg" alt="Twitter" class="button" /></a>
 </span>
+
+<!-- Facebook Button -->
+	<script language="javascript">
+	function fbshareCurrentPage()
+    	{window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false; }
+	</script>
+	<a href="javascript:fbshareCurrentPage()" target="_blank" alt="Facebook"><img src="https://raw.githubusercontent.com/snapifeye/buttons/master/Facebook.jpg" class="button"></a></a>
 
 
 <!-- Download Button-->
