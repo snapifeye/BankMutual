@@ -200,7 +200,12 @@ document.getElementById('fb-root').appendChild(e);
 			<h1>Share Your #Milestone Summer Photo!<h1>
 <img src="https://raw.githubusercontent.com/snapifeye/BankMutual/master/logo-corporate.png" style="display:none;">
 
-
+<!-- Facebook Button -->
+	<script language="javascript">
+	function fbshareCurrentPage()
+    	{window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false; }
+	</script>
+	<a href="javascript:fbshareCurrentPage()" target="_blank" alt="Facebook"><img src="https://raw.githubusercontent.com/snapifeye/BankMutual/master/Facebook-300x300-Icon.jpg" class="button"></a></a>
 
 <!-- Twitter Button -->
   <span class="custom-tweet-button">
@@ -210,15 +215,8 @@ document.getElementById('fb-root').appendChild(e);
   <img src="https://raw.githubusercontent.com/snapifeye/BankMutual/master/Twitter-300x300-Icon.jpg" alt="Twitter" class="button" /></a>
 </span>
 
-<!-- Facebook Button -->
-	<script language="javascript">
-	function fbshareCurrentPage()
-    	{window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false; }
-	</script>
-	<a href="javascript:fbshareCurrentPage()" target="_blank" alt="Facebook"><img src="https://raw.githubusercontent.com/snapifeye/BankMutual/master/Facebook-300x300-Icon.jpg" class="button"></a></a>
-
-	<!-- Email Button -->
-	        <a href="javascript:emailCurrentPage()"><img src="https://raw.githubusercontent.com/snapifeye/BankMutual/master/Email-300x300-Icon.jpg" alt="Email" class="button" /></a>
+<!-- Email Button -->
+	<a href="javascript:emailCurrentPage()"><img src="https://raw.githubusercontent.com/snapifeye/BankMutual/master/Email-300x300-Icon.jpg" alt="Email" class="button" /></a>
 
 <!-- Download Button-->
   <script>
